@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'iti-ubuntu-slave'}
 
     stages {
         stage('bulid') {
